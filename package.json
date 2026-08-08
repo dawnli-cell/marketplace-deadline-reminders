@@ -1,0 +1,15 @@
+{
+  "name": "marketplace-deadline-reminders",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "schedule": "tsx src/marketplace_deadline_scheduler.ts",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
