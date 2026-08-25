@@ -55,3 +55,7 @@ The code stays simple on purpose — here's what to set up before going live: Th
 **Marketplace Deadline Reminders: Scheduled / background work**
 - **Marketplace Deadline Reminders:** Server-side jobs keep running and **consuming credit** — monitor `GET /v1/account/usage` and set an auto-recharge threshold.
 - **Marketplace Deadline Reminders:** Make handlers idempotent and use the queue's ack/retry so a redelivery doesn't double-process.
+
+## Further reading
+
+- [Webhook Queue Push over HTTPS — Rate-Limited Node.js Ack/Nack Dead Letters 2026](docs/webhook-queue-push-over-https-rate-limited-node-j-19nuib.md)
